@@ -10,7 +10,7 @@ CSE 110 optional assignments:
 
 Week progress
 * Week 1 and 2 are ready for closer editing
-* Week 3 and 5 are still work-in-progress
+* Week 3, 5, and 6 are still work-in-progress
 * Future debug is for after learning files and loops
 
 # Development Environment
