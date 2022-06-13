@@ -36,7 +36,7 @@ print()
 
 for x in range(5):
     for y in range(5):
-        if random.randint(1, 10) in (1,2,3):
+        if random.randint(1, 10) in [1,2,3]:
             print("O", end='')
         else:
             print("X", end='')
@@ -48,19 +48,22 @@ for x in range(5):
 # Loops Advanced Using Lists (WEEK 9)
 ########################################################################
 
-myList = [1, 2, 3, 4, 5 ,6 ,7 ,8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-oddsList = []
+my_list = [1, 2, 3, 4, 5 ,6 ,7 ,8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+evens_list = []
 
-for i in myList:
-    if i % 2 == 1:
-        oddsList.append(i)
-total = sum(oddsList)
+for i in my_list:
+    if i % 2 == 0:
+        evens_list.append(i)
+
+# Two solutions for sum
+
+total = sum(evens_list)
 print(total)
 
 # Or
 
 total = 0
-for x in oddsList:
+for x in evens_list:
     total+=x
 print(total)
 
