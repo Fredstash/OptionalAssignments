@@ -10,7 +10,7 @@ CSE 110 optional assignments:
 
 Week progress
 * Week 1 and 2 are ready for closer editing
-* Week 3, 5, and 6 are still work-in-progress
+* Week 3, 5, 7, and 9 are still work-in-progress
 * Future debug is for after learning files and loops
 
 # Development Environment
@@ -23,6 +23,7 @@ Week progress
 * [W3 Schools Python](https://www.w3schools.com/python/python_intro.asp)
 * [Real Python: types of f-string formatting](https://realpython.com/python-f-strings/) - Third section is the new f-string
 * [zetcode format specifiers in new f-string](https://zetcode.com/python/fstring/)
+* [Python Tutorial read files](https://www.pythontutorial.net/python-basics/python-read-text-file/)
 
 # Future Work
 
